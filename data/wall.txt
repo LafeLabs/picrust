@@ -4,3 +4,4 @@ This is the Wall.
 
 put shortcuts on desktop of pi to the two directories, one is images the other is mp3's. Drag and drop. share and enjoy.
 
+this is some text

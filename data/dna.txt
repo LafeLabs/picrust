@@ -8,6 +8,7 @@
     ],
     "data": [
         "dna.txt",
+        "ipaddress.txt",
         "wall.txt"
     ],
     "php": [

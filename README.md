@@ -1,7 +1,17 @@
-## Pi Crust
+## [Pi Crust](https://github.com/LafeLabs/picrust)
 
+ 1. Set up Raspberry pi
+ 2. put Apache web server on the pi
+ 3. set up picrust server on pi
+ 4. create desktop shortcuts to mp3 and images folders on pi
+ 5. install xampp web server on home machine
+ 6. setup picrust server on home machine
+ 7. Create desktop shortcuts for mp3 and images  folders on home machine
+ 8. put home machine on private wifi with pi, point pi to home machine, download files into correct folder on pi
+ 9. put pi on wifi network in venue
+ 10. print out QR code to scan onto the pi based on its IP address
 
-Raspberry Pi Media Server.
+Put mp3's in the mp folder.  Put images in the image folder. 
 
 [editor.php](editor.php)
 
