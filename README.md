@@ -13,7 +13,10 @@
 
 Put mp3's in the mp folder.  Put images in the image folder. 
 
-[editor.php](editor.php)
+ - [editor.php](editor.php)
+ - [Global replicator link](https://github.com/LafeLabs/picrust/blob/main/README.md)
+ - [http://localhost/](http://localhost/)
+ - [www.trashrobot.org](https://www.trashrobot.org)
 
 ## Basic Raspberry Pi kit with screen:
 
