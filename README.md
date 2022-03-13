@@ -1,8 +1,9 @@
 ## [Pi Crust](https://github.com/LafeLabs/picrust)
-
- 1. Set up Raspberry pi
- 2. put Apache web server on the pi
- 3. set up picrust server on pi
+ 
+ 1. flash the raspberry pi SD card
+ 2. Set up Raspberry pi hardware
+ 3. put Apache web server on the pi
+ 4. set up picrust server on pi
  4. create desktop shortcuts to mp3 and images folders on pi
  5. install xampp web server on home machine
  6. setup picrust server on home machine
@@ -10,10 +11,15 @@
  8. put home machine on private wifi with pi, point pi to home machine, download files into correct folder on pi
  9. put pi on wifi network in venue
  10. print out QR code to scan onto the pi based on its IP address
+ 11. point a web 1.0 page to the venue, machine, person, event, server, place
+ 12. the pi should get mail to operator at the web 1.0 page, and the operator can just save attachments to the image or sound folders
+ 13. anyone in the venue can scan qr code or link on web 1.0 to get to picrust server, then download and listen to songs, see images
 
 Put mp3's in the mp folder.  Put images in the image folder. 
 
  - [editor.php](editor.php)
+ - [localhost/editor.php](http://localhost/editor.php)
+ - [README.md](readme.html)
  - [Global replicator link](https://github.com/LafeLabs/picrust/blob/main/README.md)
  - [http://localhost/](http://localhost/)
  - [www.trashrobot.org](https://www.trashrobot.org)
