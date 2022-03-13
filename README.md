@@ -1,65 +1,58 @@
 ## [Pi Crust](https://github.com/LafeLabs/picrust)
  
+ ***Become the Media***
+ 
  1. flash the raspberry pi SD card
  2. Set up Raspberry pi hardware
  3. put Apache web server on the pi
  4. set up picrust server on pi
- 4. create desktop shortcuts to mp3 and images folders on pi
- 5. install xampp web server on home machine
- 6. setup picrust server on home machine
- 7. Create desktop shortcuts for mp3 and images  folders on home machine
- 8. put home machine on private wifi with pi, point pi to home machine, download files into correct folder on pi
- 9. put pi on wifi network in venue
- 10. print out QR code to scan onto the pi based on its IP address
- 11. point a web 1.0 page to the venue, machine, person, event, server, place
- 12. the pi should get mail to operator at the web 1.0 page, and the operator can just save attachments to the image or sound folders
- 13. anyone in the venue can scan qr code or link on web 1.0 to get to picrust server, then download and listen to songs, see images
+ 4. create desktop shortcuts to mp3 and images folders on pi, use a thumb drive to drag and drop files into the folders
+ 5. put pi on wifi network in venue
+ 6. put the pi on a public screen so people can see the qr code and the files, scan qr code and download and scroll the images
 
-Put mp3's in the mp folder.  Put images in the image folder. 
+## What is the Pi Crust?
 
- - [editor.php](editor.php)
- - [localhost/editor.php](http://localhost/editor.php)
- - [README.md](readme.html)
- - [Global replicator link](https://github.com/LafeLabs/picrust/blob/main/README.md)
- - [http://localhost/](http://localhost/)
- - [www.trashrobot.org](https://www.trashrobot.org)
+The Pi Crust lets us share music and images over wifi with a simple web interface and all cheap off the shelf hardware.  It requires no logins, no web pages, no apps or cloud or indeed any Internet access at all.  It merely requires that everyone sharing media be on the same local network, be it wifi or a wired local network.  Once set up, one drags and drops files into the image and mp3 folders and they're posted.
 
-## Basic Raspberry Pi kit with screen:
 
- - [Raspberry Pi 4 4 gb($55, pishop.us)](https://www.pishop.us/product/raspberry-pi-4-model-b-4gb/)
+## Get support
+
+The Pi Crust needs several people to cooperate in order to work.  We need content creators who want to share their work.  They can be sharing directly or can have their work shared by fans or peers.  We also need a community who is actively engaged with the content of the creators already, and will put effort into getting their work.  We need Operators, who will select, curate, and maintain the collection of files.  
+
+## Get the parts you need
+
+ - Find a donated Raspberry Pi if you can, they are now hard to buy, any model works
  - [microSD Card and SD adapter($7, pishop.us)](https://www.pishop.us/product/microsd-card-32-gb-class-10-blank/)
  - [SD card reader($3, Pishop.us)](https://www.pishop.us/product/high-speed-micro-sd-card-reader-maximum-128gb-black/)
-  - [HDMI Screen($102, Sundfounder)](https://www.sunfounder.com/collections/monitors/products/7-inch-hdmi-monitor)
- - [raspberry pi keyboard and mouse, official, from sunfounder($36)](https://www.sunfounder.com/collections/keyboard-gamepad/products/keyboard-mouse)
- - [raspberry pi wall power supply($8, pishop.us)](https://www.pishop.us/product/raspberry-pi-15w-power-supply-us-black/)
+ - [raspberry pi wall power supply for Pi 4($8, pishop.us)](https://www.pishop.us/product/raspberry-pi-15w-power-supply-us-black/) **OR**
+ - [Raspberry Pi wall power supply for 1/2/3](https://www.pishop.us/product/raspberry-pi-12-5w-power-supply-us-white/)
+ - Any screen with an HDMI input
+ - HDMI cable or HDMI micro cable if it is a Raspberry Pi 4
+ - USB mouse
+ - USB keyboard
 
 
-## Terminal Assembly
+## Flash the SD card 
 
-![](https://i.imgur.com/Y46szlG.jpg)
+ Connect the microSD card reader to a USB port(if you don't have a USB A, you will need a converter from C to A or a USB C SD card reader)
 
-![](https://i.imgur.com/N4ItAdo.jpg) 
-
-## Solar power kit
-
- - [solar panel and charger, (Amazon $60)](https://www.amazon.com/SOLPERK-Controller%EF%BC%8C-Automotive-Motorcycle-Powersports/dp/B07TTMF3FZ)
- - [barrel connector pigtails ($10 for 10 pack)](https://www.amazon.com/dp/B0915T6NLL)
- - [12 V 9 A-h lead acid battery($40 Amazon)](https://www.amazon.com/Mighty-Max-Battery-Replacement-Electric/dp/B00KAVH1GU/)
- - [12 V to USB charger converter, (Amazon $16)](https://www.amazon.com/dp/B09FKHK5MY)
- - [adafruit panel voltmeter $8](https://www.adafruit.com/product/575)
-
-
-##  Set up the Raspberry Pi
-
-Get a SD card with 8 GB or more storage and a SD card USB reader
-
-Download and install, then use the Raspberry Pi Imager:
+Download, install, then use the Raspberry Pi Imager:
 
 [https://www.raspberrypi.org/software/](https://www.raspberrypi.org/software/)
 
-Turn on the pi click through all the things, put it on the wifi network.
 
-## Install Apache and PHP so that geometron can run
+## Set up the Raspberry Pi
+
+ - assemble the case if you have a case
+ - put the microSD card in the slot on the pi
+ - plug in the USB mouse
+ - plug in the USB keyboard
+ - connect the Pi to a screen with the HDMI cable, preferable one everyone in the venue can easily see
+ - Plug the Pi into the wall
+ - Click through the various startup menus to finish setup on boot
+ 
+
+## Install Pi Crust
 
 Open a command prompt(black link on menu bar) and type:
 
@@ -67,12 +60,7 @@ Open a command prompt(black link on menu bar) and type:
 sudo apt update
 sudo apt install apache2 -y
 sudo apt install php libapache2-mod-php -y
-```
 
-
-## Install geometron with this document for self-documentation and replication
-
-```
 cd /var/www/html
 sudo rm index.html
 sudo curl -o replicator.php https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt
@@ -81,18 +69,29 @@ sudo chmod -R 0777 *
 cd html
 php replicator.php
 sudo chmod -R 0777 *
-```
-
-## Create desktop shortcuts to the mp3 and image directories
-
-```
 cd ~/Desktop
 ln -s /var/www/html/images images
 ln -s /var/www/html/mp3 mp3
 ```
 
+Now you should be able to drag and drop files into a pair of folders on the desktop marked "images" and "mp3" and they will appear in the server.  Open a web browser on the Pi and point it to [http://localhost/](http://localhost/) and you will see the server.  
+
+This QR Code will not scan until the IP address has been set, which you can do with [editor.php](editor.php).  Hover the mouse over the wifi icon on the menu bar, copy down the IP address, and change it to that address in the file called data/ipaddress.txt.  
+
+Alternatively, you can write down the address, point the web browser of another computer to it, and disconnect the screen from the Pi, running it in "headless" mode.  
+
+## Put Files on Server
+
+ - put files on a thumb drive and transfer them to the folders **or**
+ - download from other servers on the network or on the Internet to the folders **or**
+ - set up an email account for the operator, log onto that dedicated email on the Pi, and as emails come in with attachments, download them and put them in the folders(NO PERSONAL or private information should be on the Pi ever)
+ 
+
+
 
 ## Install on Windows or Mac
+
+Do not use this in public ever unless you have wiped all personal information from the machine and keep it that way.
 
 First, install XAMPP, a free open source web server for all platforms.  [Download from www.apachefriends.org](https://www.apachefriends.org/index.html).  Click on windows to download, and click through to install everything.
 
@@ -106,9 +105,8 @@ Click on "Explorer" to get access to where the files are.  From the main directo
 
 ![](https://i.imgur.com/EpHYYOd.png)
 
-Point a web browser on the same computer to [http://localhost/](http://localhost), then click on replicator.php.  This should replicate the whole system into the directory.  When this is done, click the link to go to the main page.  You should see a new Geometron instance:
+Point a web browser on the same computer to [http://localhost/](http://localhost), then click on replicator.php.  This should replicate the whole system into the directory.  When this is done, click the link to go to the main page.  
 
-![](https://i.imgur.com/b8iZDRF.png) 
 
 When this loads, you need to get the IP address of this machine, which you do by clicking from the main XAMPP screen(shown at the top of this scroll) to "netstat".  You will now see a bunch of processes on various IP addresses.  Look at the web browser you opened which you pointed to "localhost" and you will see the IP address of this machine.  Create a link to it by starting with "http://" and then adding the IP address.  Share this link with yourself and anyone else on the local wifi network via email or text message or link on an existing server.
 
