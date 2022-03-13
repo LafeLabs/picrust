@@ -19,11 +19,14 @@
     -->
 <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAC0LP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEREREAAAAAEREREQAAAAARERERAAAAABEREREAAAAAEREREQAAAAARERERAAAAABEREREAAAAAEREREREREREAAAAAEREREQAAAAARERERAAAAABEREREAAAAAEREREQAAAAARERERAAAAABEREREAAAAAEREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
 
-    
+   <title>PI CRUST</title>    
 </head>
 <body>    
-<textarea id  = "wall"></textarea>
+<div id = "ipbutton">&#128246</div><!--hexidecimal &#x1F4F6-->
+<input id = "ipaddressinput"/>
+<textarea id  = "wall" spellcheck="false"></textarea>
 <div id = "qrcode"></div>
+<div id = "brandbox">PI CRUST by <a style = "color:#0000ff" href = "https://www.trashrobot.org">TRASH ROBOT</a></div>
 <div id = "imagescroll"></div>
 <div id = "mp3scroll"></div>
 <script>
@@ -108,12 +111,11 @@ else{
     codesquaresize = 0.5*innerWidth - 100;   
 }
 
+ipaddress = "";
+
 
 if(globalurl.includes("localhost")){
     //load ip address
-    
-    ipaddress = "";
-
     var httpc = new XMLHttpRequest();
     httpc.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -126,6 +128,7 @@ if(globalurl.includes("localhost")){
                 globalurl = "http://" + ipaddress;
             }
             drawqrcode();
+            document.getElementById("ipaddressinput").value = ipaddress;
         }
     };
     
@@ -152,13 +155,54 @@ function drawqrcode(){
 }
 
 
+document.getElementById("ipaddressinput").onchange = function(){
+    ipaddress = this.value;
+    var httpc = new XMLHttpRequest();
+    var url = "filesaver.php";        
+    httpc.open("POST", url, true);
+        httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
+    httpc.send("data="+encodeURIComponent(ipaddress)+"&filename=data/ipaddress.txt");//send text to filesaver.php        
 
+}
+
+
+document.getElementById("ipaddressinput").style.display = "none";
+
+ipaddressvisible = false;
+document.getElementById("ipbutton").onclick = function(){
+    ipaddressvisible = !ipaddressvisible;
+    if(ipaddressvisible){
+        document.getElementById("ipaddressinput").style.display = "block";
+    }
+    else{
+        document.getElementById("ipaddressinput").style.display = "none";
+    }
+}
 
 </script>
 <style>
 body{
     overflow:hidden;
     background-color:#ff2cb4;
+}
+#ipbutton{
+    position:absolute;
+    right:0px;
+    top:0px;
+    font-size:20px;
+    cursor:pointer;
+}
+#ipaddressinput{
+    position:absolute;
+    top:0px;
+    right:50px;
+    z-index:10;
+    font-family:courier;
+    color:#00ff00;
+    background-color:black;
+    font-size:18px;
+    border-color:black;
+    width:300px;
 }
 #wall{
     position:absolute;
@@ -170,6 +214,12 @@ body{
     color:#00ff00;
     font-family:courier;
     font-size:1em;
+}
+#brandbox{
+    position:absolute;
+    top:0px;
+    left:51%;
+    font-family:courier;
 }
 #qrcode{
     position:absolute;
