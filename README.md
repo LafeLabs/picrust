@@ -96,4 +96,28 @@ Alternatively, you can write down the address, point the web browser of another 
  - download from other servers on the network or on the Internet to the folders **or**
  - set up an email account for the operator, log onto that dedicated email on the Pi, and as emails come in with attachments, download them and put them in the folders(NO PERSONAL or private information should be on the Pi ever).  This is how we can do real time music posts in a venue with a human on location.
  
+## Windows and Mac Installation
+
+ Download and install [XAMPP](https://www.apachefriends.org/index.html)
+ 
+ ![](https://i.imgur.com/G90zeyE.png)
+ 
+ Start it and run Apache. You should see a control panel like this:
+ 
+ ![](https://i.imgur.com/wgpIqfH.png)
+ 
+ Click on "Explorer" to get access to where the files are.  From the main directory called xamp, you want the sub-directory "htdocs".  Open this, delete the index.php file, and create a new file called replicator.php which you copy and paste the replicator at [php/replicator.txt](https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt) into, and save.  
+ 
+ 
+ ![](https://i.imgur.com/EpHYYOd.png)
+
+Point a web browser on the same computer to [http://localhost/](http://localhost), then click on replicator.php.  This should replicate the whole system into the directory.  When this is done, click the link to go to the main page.  Now localhost should be a standard PI CRUST server.  Edit the wall to say which physical machine this is.  
+
+Now click on the "settings" for your wifi, and look for the "ipv4" IP address, which should be a sequence of four numbers separated by periods.  Click the wifi symbol in the upper right corner of the web browser to open the IP address input, replace the IP address there with your current IP address and hit enter, then click the wifi logo again to close the input.  The QR code should now scan to that machine.
+
+To put media on the server, create shortcuts on your desktop to the two media folders, "images" and "mp3".  Drag and drop images into the image folder, drag and drop all other media files into the mp3 directory.  Carry around a thumb drive with the two media folders, and you can quickly transfer all the files from one server to another, from pc to mac to pi.  
+
+Now just leave your screen where people can see it and they can scan the QR code to copy the server page, then they can see all the imges, read and write to the wall, and download all the files.
+
+On windows, the locations can be "c:\xampp\htdocs\mp3" and "c:\xampp\htdocs\images".  On any system, you can use the file explorer to find the path, then use that from whatever the shortcut creation method is(right click the desktop on Windows and select create new shortcut).
 

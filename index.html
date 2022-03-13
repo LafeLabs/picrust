@@ -22,7 +22,10 @@
    <title>PI CRUST</title>    
 </head>
 <body>    
-<div id = "ipbutton">&#128246</div><!--hexidecimal &#x1F4F6-->
+<div id = "ipbutton" class = "wifi"></div>
+<!--hexidecimal &#x1F4F6 is decmial &#128246 is wifi emoji-->
+
+
 <input id = "ipaddressinput"/>
 <textarea id  = "wall" spellcheck="false"></textarea>
 <div id = "qrcode"></div>
@@ -260,6 +263,21 @@ body{
     color:#ff2cb4;
     margin-left:1em;
     font-family:courier;
+}
+.wifi {
+	padding: 4px;
+}
+
+.wifi, .wifi:before {
+	display: inline-block;
+	border: 12px double transparent;
+	border-top-color: currentColor;
+	border-radius: 50%;
+}
+
+.wifi:before {
+	content: '';
+	width: 0; height: 0;
 }
 </style>
 </body>
