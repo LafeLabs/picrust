@@ -1,20 +1,22 @@
 # [PI CRUST](https://github.com/LafeLabs/picrust)
  
 ## by [TRASH ROBOT](https://www.trashrobot.org)
- 
+
+![](https://i.imgur.com/R2qQX8C.png)
+
 ### ***Become the Media***
  
  1. flash the raspberry pi SD card
  2. Set up Raspberry pi hardware
  3. put Apache web server on the pi
  4. set up picrust server on pi
- 4. create desktop shortcuts to mp3 and images folders on pi, use a thumb drive to drag and drop files into the folders
- 5. put pi on wifi network in venue
- 6. put the pi on a public screen so people can see the qr code and the files, scan qr code and download and scroll the images
+ 5. create desktop shortcuts to mp3 and images folders on pi, use a thumb drive to drag and drop files into the folders
+ 6. put pi on wifi network in venue
+ 7. put the pi on a public screen so people can see the qr code and the files, scan qr code and download and scroll the images
 
-## What is the Pi Crust?
+## What is PI CRUST?
 
-The Pi Crust lets us share music and images over wifi with a simple web interface and all cheap off the shelf hardware.  It requires no logins, no web pages, no apps or cloud or indeed any Internet access at all.  It merely requires that everyone sharing media be on the same local network, be it wifi or a wired local network.  Once set up, one drags and drops files into the image and mp3 folders and they're posted.
+PI CRUST lets us share music and images over wifi with a simple web interface and all cheap off the shelf hardware.  It requires no logins, no web pages, no apps or cloud or indeed any Internet access at all.  It merely requires that everyone sharing media be on the same local network, be it wifi or a wired local network.  Once set up, one drags and drops files into the image and mp3 folders and they're posted.
 
 
 ## Get community support
