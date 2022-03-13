@@ -1,6 +1,8 @@
-## [Pi Crust](https://github.com/LafeLabs/picrust)
+# [PI CRUST](https://github.com/LafeLabs/picrust)
  
- ***Become the Media***
+## by [TRASH ROBOT](https://www.trashrobot.org)
+ 
+#### ***Become the Media***
  
  1. flash the raspberry pi SD card
  2. Set up Raspberry pi hardware
@@ -21,7 +23,7 @@ The Pi Crust needs several people to cooperate in order to work.  We need conten
 
 ## Get the parts you need
 
- - Find a donated Raspberry Pi if you can, they are now hard to buy, any model works
+ - Find a donated Raspberry Pi if you can, they are now hard to buy, any model works. Ask nerds and ask nerds to ask their nerd friends, people get Pi's as gifts and then do nothing with them, find someone with an unused Pi.  Be sure to ask if it's a Pi 4 or an earlier model, that affects the power suppoly and HDMI cable you need to get.
  - [microSD Card and SD adapter($7, pishop.us)](https://www.pishop.us/product/microsd-card-32-gb-class-10-blank/)
  - [SD card reader($3, Pishop.us)](https://www.pishop.us/product/high-speed-micro-sd-card-reader-maximum-128gb-black/)
  - [raspberry pi wall power supply for Pi 4($8, pishop.us)](https://www.pishop.us/product/raspberry-pi-15w-power-supply-us-black/) **OR**
@@ -49,12 +51,13 @@ Download, install, then use the Raspberry Pi Imager:
  - plug in the USB keyboard
  - connect the Pi to a screen with the HDMI cable, preferable one everyone in the venue can easily see
  - Plug the Pi into the wall
- - Click through the various startup menus to finish setup on boot
- 
+ - Click through the various startup menus which come up on boot to finish setup. In spite of dire warnings, keep the default password, this is an insecure-by-design machine, which should *never* have personal or private information ever.  If a pi is corrupted by hacking, just wipe the SD card and re-install.
+
 
 ## Install Pi Crust
 
-Open a command prompt(black link on menu bar) and type:
+If this looks overwhelming, ask around to find someone who does tech things to do this. Open a command prompt(black link on menu bar) and copy and paste each line one by one(right click on the terminal window to paste):
+
 
 ```
 sudo apt update
@@ -86,35 +89,7 @@ Alternatively, you can write down the address, point the web browser of another 
  - download from other servers on the network or on the Internet to the folders **or**
  - set up an email account for the operator, log onto that dedicated email on the Pi, and as emails come in with attachments, download them and put them in the folders(NO PERSONAL or private information should be on the Pi ever)
  
+## Set up IP address for localhost
 
+ - click the wifi icon in the upper right corner of the screen
 
-
-## Install on Windows or Mac
-
-Do not use this in public ever unless you have wiped all personal information from the machine and keep it that way.
-
-First, install XAMPP, a free open source web server for all platforms.  [Download from www.apachefriends.org](https://www.apachefriends.org/index.html).  Click on windows to download, and click through to install everything.
-
-![](https://i.imgur.com/G90zeyE.png)
-
-After you download and install it, run it and start Apache.  You should see a control panel like this:
-
-![](https://i.imgur.com/wgpIqfH.png)
-
-Click on "Explorer" to get access to where the files are.  From the main directory called xamp, you want the sub-directory "htdocs".  Open this, delete the index.php file, and create a new file called replicator.php which you copy and paste the replicator at [php/replicator.txt](php/replicator.txt) into, and save.  
-
-![](https://i.imgur.com/EpHYYOd.png)
-
-Point a web browser on the same computer to [http://localhost/](http://localhost), then click on replicator.php.  This should replicate the whole system into the directory.  When this is done, click the link to go to the main page.  
-
-
-When this loads, you need to get the IP address of this machine, which you do by clicking from the main XAMPP screen(shown at the top of this scroll) to "netstat".  You will now see a bunch of processes on various IP addresses.  Look at the web browser you opened which you pointed to "localhost" and you will see the IP address of this machine.  Create a link to it by starting with "http://" and then adding the IP address.  Share this link with yourself and anyone else on the local wifi network via email or text message or link on an existing server.
-
-![](https://i.imgur.com/XqBnJIY.png)
-
-Also, to have a record of it which is easy to share, add a link to it at the top of the home scroll for the new server.  You can also add a link to qrcode.html at the top of the new home scroll so that it is easy to replicate a link from one mobile device to another when they are all on the same wifi network, all looking at the same Windows server.
-
-To understand what this is for, read the [Book of Geometron](scrolls/bookofgeometron.md).  Learn to use the Factories. 
-
-
-```
