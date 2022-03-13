@@ -31,7 +31,7 @@
 <div id = "qrcode"></div>
 <div id = "brandbox">PI CRUST by <a style = "color:#0000ff" href = "https://www.trashrobot.org">TRASH ROBOT</a></div>
 <div id = "imagescroll"></div>
-<div id = "mp3scroll"></div>
+<div id = "mediascroll"></div>
 <script>
 
 wall = "";
@@ -82,26 +82,26 @@ function loadimagefeed(){
 }
 
 
-mp3s = [];
+media = [];
 
 var httpcUpload = new XMLHttpRequest();
 httpcUpload.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        mp3s = JSON.parse(this.responseText);
+        media = JSON.parse(this.responseText);
         loadmp3feed();
     }
 };
-httpcUpload.open("GET", "dir.php?filename=mp3", true);
+httpcUpload.open("GET", "dir.php?filename=media", true);
 httpcUpload.send();
 
 
 function loadmp3feed(){
 
-    for(var index = mp3s.length - 1;index >= 0;index--) {
+    for(var index = media.length - 1;index >= 0;index--) {
         var newa = document.createElement("A");
-        newa.innerHTML = mp3s[index];
-        newa.href = "mp3/" + mp3s[index];
-        document.getElementById("mp3scroll").appendChild(newa);
+        newa.innerHTML = media[index];
+        newa.href = "media/" + media[index];
+        document.getElementById("mediascroll").appendChild(newa);
     }    
 
 }
@@ -246,7 +246,7 @@ body{
     margin-top:1em;
     margin-bottom:1em;
 }
-#mp3scroll{
+#mediascroll{
     position:absolute;
     right:0px;
     bottom:0px;
@@ -255,7 +255,7 @@ body{
     height:50%;
     background-color:#101010;
 }
-#mp3scroll a{
+#mediascroll a{
     display:block;
     margin:auto;
     margin-top:0.5em;
