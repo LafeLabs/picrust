@@ -1,6 +1,7 @@
 {
     "html": [
         "README.md",
+        "fork.html",
         "index.html",
         "qrcode.html",
         "readme.html",
@@ -17,6 +18,8 @@
         "editor.txt",
         "fileloader.txt",
         "filesaver.txt",
+        "mkdir.txt",
+        "rdelete.txt",
         "replicator.txt",
         "text2php.txt"
     ]
