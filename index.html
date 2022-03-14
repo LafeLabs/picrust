@@ -88,23 +88,57 @@ var httpcUpload = new XMLHttpRequest();
 httpcUpload.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         media = JSON.parse(this.responseText);
-        loadmp3feed();
+        loadmediafeed();
     }
 };
 httpcUpload.open("GET", "dir.php?filename=media", true);
 httpcUpload.send();
 
+mediadir = [];
+dirname = "";
+function loadmediafeed(){
+    for(var index = 0;index < media.length;index++) {
+        
+        if(media[index].includes(".")){
+            var newa = document.createElement("A");
+            newa.innerHTML = media[index];
+            newa.href = "media/" + media[index];
+            document.getElementById("mediascroll").appendChild(newa);
+        }
+        else{
+            //directory
+            var newdiv = document.createElement("DIV");
+            var newh1 = document.createElement("H1");
+            newh1.innerHTML = media[index] + "/";
+            newdiv.id = "dir" + media[index];
+            newdiv.appendChild(newh1);
+            document.getElementById("mediascroll").appendChild(newdiv);
+            newh1.onclick = function(){
+                dirname = this.innerHTML.substring(0,this.innerHTML.length-1);
+                
+                var httpcUpload2 = new XMLHttpRequest();
+                httpcUpload2.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        dirmedia = JSON.parse(this.responseText);
+                        
+                        for(var dirindex = 0;dirindex < dirmedia.length;dirindex++){
+                            var newa = document.createElement("A");
+                            newa.innerHTML = dirmedia[dirindex];
+                            newa.href =  "media/" + dirname + "/"  +dirmedia[dirindex];
+                            document.getElementById("dir" + dirname).appendChild(newa);
+                        }
+                    }
+                };
+                httpcUpload2.open("GET", "dir.php?filename=media/" + dirname, true);
+                httpcUpload2.send();
 
-function loadmp3feed(){
-
-    for(var index = media.length - 1;index >= 0;index--) {
-        var newa = document.createElement("A");
-        newa.innerHTML = media[index];
-        newa.href = "media/" + media[index];
-        document.getElementById("mediascroll").appendChild(newa);
+            }
+        }
     }    
 
 }
+
+
 
 globalurl = window.location.href;
 if(innerWidth> innerHeight){
@@ -255,7 +289,7 @@ body{
     height:50%;
     background-color:#101010;
 }
-#mediascroll a{
+#mediascroll a,span{
     display:block;
     margin:auto;
     margin-top:0.5em;
@@ -263,6 +297,26 @@ body{
     color:#ff2cb4;
     margin-left:1em;
     font-family:courier;
+}
+#mediascroll h1{
+    color:#ff2cb4;
+    font-family:courier;
+    border:solid;
+    border-radius:5px;
+    border-color:#ff2cb4;
+    margin-top:2px;
+    margin-bottom:2px;
+    cursor:pointer;
+}
+#mediascroll span{
+    border:solid;
+    border-color:#ff2cb4;
+    cursor:pointer;
+}
+#mediascroll div{
+    border:solid;
+    border-color:#ff2cb4;
+    margin: 0.5em 0.5em 0.5em 0.5em;
 }
 .wifi {
 	padding: 4px;
