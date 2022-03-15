@@ -2,10 +2,11 @@
  
 ## by [TRASH ROBOT](https://www.trashrobot.org)
 
-![](https://i.imgur.com/R2qQX8C.png)
+![](https://i.imgur.com/fmUlljl.png)
 
 ### ***BECOME THE MEDIA***
-### ***THE WHIMSICAL DARK WEB***
+
+
 ### [replicator.php code](https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt)
  
  1. flash the raspberry pi SD card
