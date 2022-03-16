@@ -128,4 +128,4 @@ Now just leave your screen where people can see it and they can scan the QR code
 
 On windows, the locations can be "c:\xampp\htdocs\media" and "c:\xampp\htdocs\images".  On any system, you can use the file explorer to find the path, then use that from whatever the shortcut creation method is(right click the desktop on Windows and select create new shortcut).
 
-
+Keep media files on thumb drives to drop into folders on different servers and deliver on different networks.
