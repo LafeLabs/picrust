@@ -109,7 +109,11 @@ Alternatively, you can write down the address, point the web browser of another 
  
  ![](https://i.imgur.com/wgpIqfH.png)
  
- Click on "Explorer" to get access to where the files are.  From the main directory called xamp, you want the sub-directory "htdocs".  Open this, delete the index.php file, and create a new file called replicator.php which you copy and paste the replicator at [php/replicator.txt](https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt) into, and save.  
+ Click on "Explorer" to get access to where the files are.  From the main directory called xamp, you want the sub-directory "htdocs".  
+ 
+ Open htdocs and  delete the index.php file.
+ 
+download the file [php/replicator.txt](https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt) by right clicking this link, then save it as "replicator.php" in the htdocs folder.  
  
  
  ![](https://i.imgur.com/EpHYYOd.png)
@@ -123,4 +127,5 @@ To put media on the server, create shortcuts on your desktop to the two media fo
 Now just leave your screen where people can see it and they can scan the QR code to copy the server page, then they can see all the imges, read and write to the wall, and download all the files.
 
 On windows, the locations can be "c:\xampp\htdocs\media" and "c:\xampp\htdocs\images".  On any system, you can use the file explorer to find the path, then use that from whatever the shortcut creation method is(right click the desktop on Windows and select create new shortcut).
+
 
