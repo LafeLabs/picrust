@@ -130,4 +130,4 @@ Keep media files on thumb drives to drop into folders on different servers and d
 
 ## Web 1.0 Pages
 
-Choose a location, like a street, a creek, a pond or lake, lagoon, boardwalk, public library, truck stop etc.  Think of a domain name for that place that ends with something other than .com. 
+Choose a location, like a street, a creek, a pond or lake, lagoon, boardwalk, public library, truck stop etc.  Think of a domain name for that place that ends with something other than .com. Install a Web 1.0 page from the repository for that at [github.com/lafelabs/web](https://github.com/LafeLabs/web).  Point that page to whatever PI CRUST servers are around.  Share and enjoy.
