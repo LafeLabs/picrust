@@ -6,6 +6,8 @@
 
 ![](https://i.imgur.com/1ujLhzq.png)
 
+![](https://i.imgur.com/Y5OekAp.png)
+
 ### ***GUERILLA LIBRARY***
 
 [link to http://localhost/](http://localhost/)
@@ -17,9 +19,13 @@ Share:
  - music files
  - podcast files
  - video files
- - immersive text games
+ - text games
  - pdfs of books and academic papers
  - private web pages
+ - zines
+ - ad boards
+ - generative art
+ - instructions
 
 Over a local wifi network using a [Raspberry Pi](https://www.raspberrypi.org/).
 
