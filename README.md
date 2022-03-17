@@ -8,6 +8,9 @@
 
 ### ***GUERILLA LIBRARY***
 
+
+Share:
+
  - images
  - articles
  - music files
@@ -17,30 +20,14 @@
  - pdfs of books and academic papers
  - private web pages
 
+Over a local wifi network using a [Raspberry Pi](https://www.raspberrypi.org/).
+
+
+PI CRUST lets us share media over wifi with a simple web interface and all cheap off the shelf hardware.  It requires no logins, no web pages, no apps or cloud or indeed any Internet access at all.  It merely requires that everyone sharing media be on the same local network, be it wifi or a wired local network.  Once set up, one drags and drops files into the image and media folders and they're posted.
+
 
 ### [replicator.php code](https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt)
  
- 1. flash the raspberry pi SD card
- 2. Set up Raspberry pi hardware
- 3. put Apache web server on the pi
- 4. set up picrust server on pi
- 5. create desktop shortcuts to media and images folders on pi, use a thumb drive to drag and drop files into the folders
- 6. put pi on wifi network in venue
- 7. put the pi on a public screen so people can see the qr code and the files, scan qr code and download and scroll the images
-
-## What is PI CRUST?
-
-PI CRUST lets us share music and images over wifi with a simple web interface and all cheap off the shelf hardware.  It requires no logins, no web pages, no apps or cloud or indeed any Internet access at all.  It merely requires that everyone sharing media be on the same local network, be it wifi or a wired local network.  Once set up, one drags and drops files into the image and media folders and they're posted.
-
-
-## Get community support
-
-The Pi Crust needs several people to cooperate in order to work.  We need content creators who want to share their work.  They can be sharing directly or can have their work shared by fans or peers.  We also need a community who is actively engaged with the content of the creators already, and will put effort into getting their work.  We need Operators, who will select, curate, and maintain the collection of files.  Operators are a combination DJ and DIY record label. Media can be anything, but we focus on audio files of music and podcasts and images, which can be album cover art, any graphic arts, or advertisements posted by locals.
-
-For this to work, we need full community buy in.  Artists need to see this as a way to succeed and to all support each other.  Anyone can promote anything.  Build your own media network for zero dollars investment sitting in a coffee shop! Imagine a whole music/art scene being distributed over a localy independent venue! Podcasts mean we can do local media of all kinds. The media directory can have any kind of file, so while you should be careful of things that can viruses, this can also be articles in .pdf or word or text or even html.  And the image folder can have advertisements for anything.  A very simple business model is to charge for advertisements from local community members to support an operator.  Think of these sponsorships like sponsoring public radio or television.
-
-Venues are also critical participants in this network. Use your imagination for who to work with for venues.  Also, we can move the server around from one venue to the next, building a whole network of local venues.  Venues can be coffee shops, DIY venues, book stores, libraries, public parks, art galleries, maker spaces, bars, restaurants, clubs, punk houses, apartment buildings, offices, churches, schools, financial institutions, marinas, street corners, student housing, dispensaries, or just mobile hotspots on a bicycle, car or on foot around the neighborhood(with a battery for the Pi).
-
 
 ## Get the parts you need
 
@@ -140,3 +127,7 @@ Now just leave your screen where people can see it and they can scan the QR code
 On windows, the locations can be "c:\xampp\htdocs\media" and "c:\xampp\htdocs\images".  On any system, you can use the file explorer to find the path, then use that from whatever the shortcut creation method is(right click the desktop on Windows and select create new shortcut).
 
 Keep media files on thumb drives to drop into folders on different servers and deliver on different networks.
+
+## Web 1.0 Pages
+
+Choose a location, like a street, a creek, a pond or lake, lagoon, boardwalk, public library, truck stop etc.  Think of a domain name for that place that ends with something other than .com. 
