@@ -4,7 +4,18 @@
 
 ![](https://i.imgur.com/fmUlljl.png)
 
-### ***BECOME THE MEDIA***
+![](https://i.imgur.com/1ujLhzq.png)
+
+### ***GUERILLA LIBRARY***
+
+ - images
+ - articles
+ - music files
+ - podcast files
+ - video files
+ - immersive text games
+ - pdfs of books and academic papers
+ - private web pages
 
 
 ### [replicator.php code](https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt)
