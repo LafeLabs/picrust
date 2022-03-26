@@ -14,6 +14,8 @@
 
 ## [join the discord to put together a local crew](https://discord.gg/U6nT4eNX3y)
 
+## [Web 1.0 Repository](https://github.com/LafeLabs/web)
+
 Share:
 
  - images
