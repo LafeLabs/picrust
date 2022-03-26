@@ -10,7 +10,9 @@
 
 ### ***GUERILLA LIBRARY***
 
-[link to http://localhost/](http://localhost/)
+## [link to http://localhost/](http://localhost/)
+
+## [join the discord to put together a local crew](https://discord.gg/U6nT4eNX3y)
 
 Share:
 
