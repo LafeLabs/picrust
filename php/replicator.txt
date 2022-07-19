@@ -1,6 +1,6 @@
 <?php
 
-$dnaurl = "https://raw.githubusercontent.com/LafeLabs/hypercube/main/picrust/data/dna.txt";
+$dnaurl = "https://raw.githubusercontent.com/LafeLabs/picrust/main/data/dna.txt";
 
 if(isset($_GET["dna"])){
     $dnaurl = $_GET["dna"];
@@ -17,7 +17,7 @@ mkdir("uploadimages");
 mkdir("media");
 
 
-copy("https://raw.githubusercontent.com/LafeLabs/hypercube/main/picrust/php/replicator.txt","replicator.php");
+copy("https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt","replicator.php");
 
 foreach($dna->html as $value){
     

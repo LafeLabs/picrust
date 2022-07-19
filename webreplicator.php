@@ -1,6 +1,6 @@
 <?php
 
-$webdnaurl = "https://raw.githubusercontent.com/LafeLabs/picrust/main/picrust/data/webdna.txt";
+$webdnaurl = "https://raw.githubusercontent.com/LafeLabs/picrust/main/data/webdna.txt";
 
 if(isset($_GET["dna"])){
     $webdnaurl = $_GET["dna"];
