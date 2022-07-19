@@ -1,26 +1,34 @@
 {
     "html": [
         "README.md",
-        "fork.html",
+        "imagefeed.html",
         "index.html",
+        "mediadestroyer.html",
+        "picrust.html",
         "qrcode.html",
         "readme.html",
-        "scrolleditor.html"
+        "scrolleditor.html",
+        "webpages.html"
     ],
     "data": [
         "dna.txt",
-        "ipaddress.txt",
-        "wall.txt"
+        "wall.txt",
+        "webdna.txt"
     ],
     "php": [
+        "copy.txt",
+        "deletefile.txt",
         "dir.txt",
         "dnagenerator.txt",
         "editor.txt",
         "fileloader.txt",
         "filesaver.txt",
         "mkdir.txt",
-        "rdelete.txt",
         "replicator.txt",
-        "text2php.txt"
+        "text2php.txt",
+        "upload.txt",
+        "uploadmedia.txt",
+        "webdnagenerator.txt",
+        "webreplicator.txt"
     ]
 }

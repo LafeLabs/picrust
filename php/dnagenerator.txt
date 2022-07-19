@@ -14,7 +14,7 @@ dna.txt is a json formatted file which points to all the files in this system, w
     $phpfiles = scandir(getcwd()."/php");
     $datafiles = scandir(getcwd()."/data");
 
-    
+
     $htmlfiles = [];
     foreach($files as $value){
         if(substr($value,-5) == ".html" || substr($value,-3) == ".md" || substr($value,-3) == ".py" || substr($value,-3) == ".sh"){
@@ -46,7 +46,6 @@ dna.txt is a json formatted file which points to all the files in this system, w
     }
 
 
-
     echo json_encode($dna,JSON_PRETTY_PRINT);
 
     $file = fopen("data/dna.txt","w");// create new file with this name
@@ -55,8 +54,4 @@ dna.txt is a json formatted file which points to all the files in this system, w
 
 ?>
 </pre>
-<style>
-    a{
-        font-size:3em;
-    }
-</style>
+

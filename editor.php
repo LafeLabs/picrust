@@ -10,10 +10,10 @@ EVERYTHING IS RECURSIVE
 NO MONEY
 NO PROPERTY
 NO MINING
-LOOK TO THE INSECTS
-LOOK TO THE FUNGI
-LANGUAGE IS HOW THE MIND PARSES REALITY
-
+EGO DEATH:
+    LOOK TO THE INSECTS
+    LOOK TO THE FUNGI
+    LANGUAGE IS HOW THE MIND PARSES REALITY
 -->
 <!--Stop Google:-->
 <META NAME="robots" CONTENT="noindex,nofollow">
@@ -28,6 +28,7 @@ LANGUAGE IS HOW THE MIND PARSES REALITY
 <a href = "index.html">index.html</a>
 <a href = "dnagenerator.php">dnagenerator.php</a>
 <a href = "text2php.php">text2php.php</a>
+<a href = "user.php">user.php</a>
 
 <?php
     $topfiles = scandir(getcwd());
@@ -65,22 +66,22 @@ LANGUAGE IS HOW THE MIND PARSES REALITY
         
     }
 
-    $jsfiles = scandir(getcwd()."/jscode");
-
-    foreach($jsfiles as $value){
-        if($value[0] != "."){
-            echo "<div class = \"javascript file\">jscode/";
-            echo $value;
-            echo "</div>\n";
-        }
-    }
-
 
     $phpfiles = scandir(getcwd()."/php");
 
     foreach($phpfiles as $value){
         if($value[0] != "."){
             echo "<div class = \"php file\">php/";
+            echo $value;
+            echo "</div>\n";
+        }
+    }
+
+    $jsfiles = scandir(getcwd()."/jscode");
+
+    foreach($jsfiles as $value){
+        if($value[0] != "."){
+            echo "<div class = \"javascript file\">jscode/";
             echo $value;
             echo "</div>\n";
         }

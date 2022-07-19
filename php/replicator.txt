@@ -1,57 +1,49 @@
-    <?php
-    
-    $dnaurl = "https://raw.githubusercontent.com/LafeLabs/picrust/main/data/dna.txt";
-    
-    if(isset($_GET["dna"])){
-        $dnaurl = $_GET["dna"];
-    }
-    
-    
-    $baseurl = explode("data/",$dnaurl)[0];
-    $dnaraw = file_get_contents($dnaurl);
-    $dna = json_decode($dnaraw);
-    
-    mkdir("data");
-    mkdir("php");
-    mkdir("media");
-    mkdir("images");
+<?php
 
-    copy("https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt","replicator.php");
+$dnaurl = "https://raw.githubusercontent.com/LafeLabs/hypercube/main/picrust/data/dna.txt";
+
+if(isset($_GET["dna"])){
+    $dnaurl = $_GET["dna"];
+}
 
 
-    foreach($dna->html as $value){
-        
-        copy($baseurl.$value,$value);
-    
-    }
-    
+$baseurl = explode("data/",$dnaurl)[0];
+$dnaraw = file_get_contents($dnaurl);
+$dna = json_decode($dnaraw);
 
-    foreach($dna->data as $value){
-        
-        if($value != "scrollset.txt"){
-            copy($baseurl."data/".$value,"data/".$value);
-        }
-        else{
-            if(!file_exists("data/".$value)){
-                copy($baseurl."data/".$value,"data/".$value);
-            }
-        }
-        
-    }
-    
-    foreach($dna->php as $value){
-     
-        copy($baseurl."php/".$value,"php/".$value);
-        copy($baseurl."php/".$value,explode(".",$value)[0].".php");
-    
-    }
-    
+mkdir("data");
+mkdir("php");
+mkdir("uploadimages");
+mkdir("media");
 
+
+copy("https://raw.githubusercontent.com/LafeLabs/hypercube/main/picrust/php/replicator.txt","replicator.php");
+
+foreach($dna->html as $value){
     
-    ?>
-    <a href = "index.html">CLICK TO GO TO PAGE</a>
-    <style>
-    a{
-        font-size:3em;
-    }
-    </style>
+    copy($baseurl.$value,$value);
+
+}
+
+
+foreach($dna->data as $value){
+    
+    copy($baseurl."data/".$value,"data/".$value);
+    
+}
+
+foreach($dna->php as $value){
+ 
+    copy($baseurl."php/".$value,"php/".$value);
+    copy($baseurl."php/".$value,explode(".",$value)[0].".php");
+
+}
+
+
+?>
+<a href = "index.html">CLICK TO GO TO PAGE</a>
+<style>
+a{
+    font-size:3em;
+}
+</style>

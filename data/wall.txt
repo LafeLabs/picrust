@@ -1,13 +1,25 @@
-                                PI CRUST
+This is the wall, just type here and it's like a chalk board
 
-ART AND MUSIC! VIDEOS! PODCASTS! ARTICLES! IMAGES! WEB PAGES!
+This page is the pi crust, social media off the Internet.  Drop media to the server to share. Share by way of QR Code. 
 
-SEE HOW TO INSTALL AT GITHUB.COM/LAFELAGS/PICRUST.
+Create and share images, articles, text documents, videos, audio files, books, and web pages(.html files).   
 
-SHARE AND ENJOY!
+elements of pi crust:
 
-THIS SCREEN IS THE WALL, ANYONE CAN TYPE ANYTHING HERE, IF IT'S ANNOYING, JUST DELETE IT. THERE ARE NO USERS, NO PASSWORDS, NO ENCRYPTION, NO PRIVATE DATA. 
+ - music
+ - web pages 
+ - videos
+ - books
+ - articles
+ - images 
+ - ads
 
-THIS SYSTEM EXISTS ENTIRELY TO SHARE INFORMATION FREELY. IT RUNS ON THE RASPBERRY PI, WINDOWS, MAC, ANDROID, IOS, AND ALL LINUX PLATFORMS.
+plan:
 
-MAKE THE NETWORK PHYSICAL.  LIVE ON THE EDGE OF THE GLOBAL NETWORKS.  SHARE CULTURE FREELY OVER WIFI.
+ - add readme.html and editor to work flow
+ - add a mode file in data/mode.txt which determines mode, and control panel for it
+ - media destroyer in work flow
+ - image destroyer in work flow
+ - basic standard pages for types of media:
+
+ 
