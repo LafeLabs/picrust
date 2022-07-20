@@ -8,8 +8,7 @@
         "qrcode.html",
         "readme.html",
         "scrolleditor.html",
-        "webeditor.html",
-        "webpages.html"
+        "webeditor.html"
     ],
     "data": [
         "dna.txt",

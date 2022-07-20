@@ -15,7 +15,7 @@ mkdir("data");
 mkdir("php");
 mkdir("uploadimages");
 mkdir("media");
-
+mkdir("web");
 
 copy("https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt","replicator.php");
 
