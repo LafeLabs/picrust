@@ -8,6 +8,7 @@
         "qrcode.html",
         "readme.html",
         "scrolleditor.html",
+        "webdestroyer.html",
         "webeditor.html"
     ],
     "data": [
@@ -30,5 +31,14 @@
         "uploadmedia.txt",
         "webdnagenerator.txt",
         "webreplicator.txt"
+    ],
+    "web": [
+        "books.html",
+        "images.html",
+        "index.html",
+        "internette.html",
+        "music.html",
+        "qrcode.html",
+        "utilities.html"
     ]
 }

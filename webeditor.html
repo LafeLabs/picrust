@@ -27,8 +27,8 @@ https://cloud9-sdk.readme.io/docs/language-mode
 
 </head>
 <body>
-<a href=  "index.html" style = "position:absolute;right:5px;top:5px;font-size:2em">HOME</a>
-
+<a href=  "web/" style = "position:absolute;right:5px;top:5px;font-size:2em">WEB</a>
+<a href=  "index.html" style = "position:absolute;right:5px;top:1.5em;font-size:2em">HOME</a>
 <table id = "inputtable">
     <tr>
         <td>Current File Name:</td>
@@ -77,6 +77,16 @@ httpc.onreadystatechange = function() {
 httpc.open("GET", "fileloader.php?filename=" + currentFile, true);
 httpc.send();
 
+
+
+var httpcprototype = new XMLHttpRequest();
+httpcprototype.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        htmlprototype = this.responseText;
+    }
+};
+httpcprototype.open("GET", "fileloader.php?filename=web/index.html", true);
+httpcprototype.send();
 
 
 scrolls = [];
@@ -162,7 +172,6 @@ document.getElementById("newscrollinput").onchange = function(){
                     scroll = htmlprototype;
                 }   
                 
-                scroll = scroll.replace(/name/g,name);
                 setmode();
                 editor.setValue(scroll);  
                 
@@ -253,32 +262,6 @@ function setmode(){
 }
 
 codesquaresize = 120;
-
-
-var newscrollbutton = document.createElement("div");
-newscrollbutton.classList.add("file");
-newscrollbutton.classList.add("html");
-newscrollbutton.innerHTML = "index.html";
-document.getElementById("filescroll").appendChild(newscrollbutton);
-newscrollbutton.onclick = function(){
-    currentFile = this.innerHTML;
-    //use php script to load current file;
-    var httpc = new XMLHttpRequest();
-    httpc.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            filedata = this.responseText;
-            setmode();
-            editor.setValue(filedata);
-            fileName = "index.html";
-            document.getElementById("newscrollinput").value = fileName;
-        }
-    };
-    httpc.open("GET", "fileloader.php?filename=" + currentFile, true);
-    httpc.send();
-                
-    document.getElementById("currentfilename").innerHTML = currentFile;
-                
-}
 
 </script>
 <style>
