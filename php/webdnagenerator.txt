@@ -6,12 +6,11 @@ webdna.txt is a json formatted file which points to all the files in this system
 <p></p>
 <a href = "index.html">index.html</a>
 <br/>
-<a href = "media/controlpanel.html">media/controlpanel.html</a>
 
 <pre>
 <?php
 
-    $files = scandir(getcwd()."/media");
+    $files = scandir(getcwd()."/web");
 
     $webdna = [];
     foreach($files as $value){

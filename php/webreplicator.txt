@@ -13,7 +13,7 @@ $webdna = json_decode($webdnaraw);
 
 foreach($webdna as $value){
     
-    copy($baseurl."media/".$value,"media/".$value);
+    copy($baseurl."web/".$value,"web/".$value);
 
 }
 
