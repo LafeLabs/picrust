@@ -16,7 +16,7 @@ images
 <div id = "header">
     <div id = "deletemodebutton" class= "button">DELETE MODE OFF</div>
     <a style = "position:absolute;right:0px;top:px;color:#ff2cb4;font-size:2em;font-family:courier;background-color:black" href = "index.html">HOME</a>
-    <form id = "uploadform" action="uploadimagefeed.php" method="post" enctype="multipart/form-data">
+    <form id = "uploadform" action="uploadimage.php" method="post" enctype="multipart/form-data">
                 <span id ="uploadspan">UPLOAD:</span>
         <input type="file" name="fileToUpload" id="fileToUpload">
         <input type="submit" value="Upload Image" name="submit" id ="submitinput">
@@ -64,7 +64,7 @@ function loadimagefeed(){
             newspan.classList.add("deletebutton");
             newspan.onclick = function(){
                 var imageurl =this.parentElement.getElementsByClassName("uploadimage")[0].src; 
-                var imagename = "images/" + imageurl.split("images/")[1];
+                var imagename = "uploadimages/" + imageurl.split("uploadimages/")[1];
                 var httpc = new XMLHttpRequest();
                 var url = "deletefile.php";         
                 httpc.open("POST", url, true);

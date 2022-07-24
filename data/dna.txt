@@ -1,7 +1,6 @@
 {
     "html": [
         "README.md",
-        "imagefeed.html",
         "images.html",
         "index.html",
         "media.html",
@@ -29,7 +28,7 @@
         "mkdir.txt",
         "replicator.txt",
         "text2php.txt",
-        "upload.txt",
+        "uploadimage.txt",
         "uploadmedia.txt",
         "webdnagenerator.txt",
         "webreplicator.txt"
