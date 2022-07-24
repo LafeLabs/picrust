@@ -4,6 +4,8 @@
 
 ### [index.html](index.html)
 
+### [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
+
 This is local media.  We can install web servers on *everything*: mac and pc laptops and desktops, Raspberry Pi, and Android and Ios Devices.  Any devices can be a server, and we drop files on it to share with others on the same wireless network.  When every device is a server as well as a client, people who share wireless networks can media without the Cloud.  
 
 Digital media content creators are supported by brick and mortar venues.  When a wireless network is the source of a constant stream of interesting and original media content, that brings people into that space.  Creators can both get sponsorships from venues and direct material support.  
@@ -15,12 +17,23 @@ The construction of this network represents the building of digital community th
 
 ## Use Cases
 
- - music and art publication/distribution in venues like bars, art galleries, and coffee shops
- - medical literature .pdf's in a medical waiting room
- - 
+ - music and art publication/distribution in venues like bars, art galleries, and coffee shops(artists compensated by venues to produce content)
+ - medical literature .pdf's in medical waiting rooms
+ - local web pages shared from server to server of local organizations, people, places, businesses, artists, etc.(local web)
+ - local classifieds and personals ads
+ - media for exchange of physical goods: share, give away, buy, and sell crafts, technology, food, locally made goods and unwanted objects, facilitate upcycling 
+ - local financial markets, moderating deals between physically local business people
+ - music sharing in religious communities 
+ - local plant, animal, fungus, soil, weather and water knowledge sharing 
+ - creating foundational documents for local organizations whose existence is primarily on these local wifi-based networks
 
+
+Scroll down to see how to install the PI CRUST server on a machine.  If many people will use a server, we want something like a [Raspberry Pi](https://www.raspberrypi.org/) that is dedicated for this purpose.  
+
+The main page of the PI CRUST server is just a simple list of links:
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/picrust.png)
+
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/localweb.png)
 
