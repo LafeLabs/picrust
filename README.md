@@ -4,8 +4,40 @@
 
 ### [index.html](index.html)
 
-This is local social media.  We can install web servers on *everything*: mac and pc laptops and desktops, Raspberry Pi, and Android and Ios Devices.
+This is local media.  We can install web servers on *everything*: mac and pc laptops and desktops, Raspberry Pi, and Android and Ios Devices.  Any devices can be a server, and we drop files on it to share with others on the same wireless network.  When every device is a server as well as a client, people who share wireless networks can media without the Cloud.  
 
+Digital media content creators are supported by brick and mortar venues.  When a wireless network is the source of a constant stream of interesting and original media content, that brings people into that space.  Creators can both get sponsorships from venues and direct material support.  
+
+This is a way to share media on the Web without the Internet, without the Cloud, without e-commerce, without algorithms or apps or the app store.  There is no user data because there are no users, just files in folders which everyone on the network can download.  The only information we ever put on the network is information we want to share freely.  
+
+The construction of this network represents the building of digital community that is always centered on physically shared spaces.  
+
+
+## Use Cases
+
+ - music and art publication/distribution in venues like bars, art galleries, and coffee shops
+ - medical literature .pdf's in a medical waiting room
+ - 
+
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/picrust.png)
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/localweb.png)
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/webeditor.png)
+
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/images.png)
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/images-delete.png)
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/media.png)
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/editorphp.png)
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/qrcode.png)
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/qrcode-trashrobot.png)
 
 
 ### Install on Windows or Mac
