@@ -2,7 +2,9 @@
     "html": [
         "README.md",
         "imagefeed.html",
+        "images.html",
         "index.html",
+        "media.html",
         "mediadestroyer.html",
         "picrust.html",
         "qrcode.html",

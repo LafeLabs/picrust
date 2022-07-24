@@ -1,6 +1,8 @@
 # PI CRUST Server
 
-[index.html](index.html)
+### *Local media on local networks*
+
+### [index.html](index.html)
 
 ### Install on Windows or Mac
 
