@@ -4,6 +4,10 @@
 
 ### [index.html](index.html)
 
+This is local social media.  We can install web servers on *everything*: mac and pc laptops and desktops, Raspberry Pi, and Android and Ios Devices.
+
+
+
 ### Install on Windows or Mac
 
 First, install XAMPP, a free open source web server for all platforms.  [Download from www.apachefriends.org](https://www.apachefriends.org/index.html).  Click on windows to download, and click through to install everything.
