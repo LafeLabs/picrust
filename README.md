@@ -34,23 +34,40 @@ The main page of the PI CRUST server is just a simple list of links:
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/picrust.png)
 
+Click the link to the local web and you'll see a list of all the .html files in the "web/" directory on the server.  
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/localweb.png)
 
+To make a new web page, click the link from the page web/index.html to "WEB EDITOR" and you can edit that main web page and build new web pages.  To destroy web pages you can click the link to "web destroyer".  
+
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/webeditor.png)
 
+All web pages should end with ".html".   You can also use this editor to create [JavaScript](https://www.w3schools.com/js/default.asp) files(.js) and [CSS](https://www.w3schools.com/css/default.asp) files(.css) for local web development.  Teach yourself web development using the tutorials at [w3schools.com](https://www.w3schools.com/), starting with HTML(https://www.w3schools.com/html/default.asp).  You can follow along the tutorials by editing your own private home page on a PI CRUST server.
+
+A very simple way to make a local media server on which people can share simple advertisements for literally anything is to host images of small screenshots and photographs.  We do this with the image feed, linked from the main page via the "Images" link.  The Image Feed has buttons to select an image to upload, then upload the image to the server.  Any image larger than about 1 megabyte won't upload.  For large images, either crop them or screen shot them and then crop the screenshot(this reduces the resolution and makes smaller files).
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/images.png)
 
+Anyone can delete any image by turning "delete mode"  on, and then clicking the "DELETE" buttons.  Deletion is forever! Backup everything you care about!  Don't want to lose a thing? Copy it again and again.
+
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/images-delete.png)
+
+In general, media files we want to share can be dropped into folders which are placed in the "media" folder on the servers.
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/media.png)
 
+The entire system is self-editing, self-replicating, and self-contained.  Each server contains a code editor which can edit the whole system including itself.  Among the set of files on each system is also a set of scripts which clone the whole system.  Files are cataloged using the script [dnagenerator.php](php/dnagenerator.txt), which creates a file called [data/dna.txt](data/dna.txt) which is finally used by [replicator.php](php/replicator.txt) to copy all the code in the system from one server to the next.  Because all this is free Public Domain code we can host it on Github for free and replicate from there, but once it's replicating out in the wild, we can replicate from one server to another without referencing back to Github if we want. At any time, any instance can then be cloned to a local directory which is pushed out to a public Github repository which can the replicate out globally.  Thus we can move smoothly between totally local private replication and public replication to potentially billions of devices using Github's free hosting of open source projects(or anyone's random personal home pages on the public World Wide Web).
+
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/editorphp.png)
+
+QR Codes allow us to quickly exchange a link from one mobile device to another for rapid sharing of links to local servers in a physical space.  These can also be printed out and posted in a public space for getting onto servers smoothly. When you first go to [qrcode.html](qrcode.html) it will load whatever web address is in the browser bar of whatever machine you're looking at it on.  
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/qrcode.png)
 
+You can enter *any* address into the text input and hit "enter" to load any arbitrary QR code.  These can then be screen shotted and uploaded to the [Image Feed](images.html) for rapid sharing of a specific domain.
+
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/qrcode-trashrobot.png)
+
 
 
 ### Install on Windows or Mac
