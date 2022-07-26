@@ -6,7 +6,7 @@
 
 ### [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
 
-This is local media.  We can install web servers on *everything*: mac and pc laptops and desktops, Raspberry Pi, and Android and Ios Devices.  Any devices can be a server, and we drop files on it to share with others on the same wireless network.  When every device is a server as well as a client, people who share wireless networks can media without the Cloud.  
+This is local media.  We can install web servers on *everything*: mac and Windows laptops and desktops, Raspberry Pi, and Android and iOS Devices.  Any device can be a server, and we drop files on it to share with others on the same wireless network.  When every device is a server as well as a client, people who share wireless networks can media without the Cloud.  
 
 Digital media content creators are supported by brick and mortar venues.  When a wireless network is the source of a constant stream of interesting and original media content, that brings people into that space.  Creators can both get sponsorships from venues and direct material support.  
 
@@ -85,6 +85,10 @@ Click on "Explorer" to get access to where the files are.  From the main directo
 ![](https://i.imgur.com/EpHYYOd.png)
 
 Point a web browser on the same computer to [http://localhost/](http://localhost), then click on replicator.php.  This should replicate the whole system into the directory.  When this is done, click the link to go to the main page. 
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/media-shortcut.png)
+
+
 
 
 ### Install on Pi
