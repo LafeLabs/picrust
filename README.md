@@ -86,9 +86,14 @@ Click on "Explorer" to get access to where the files are.  From the main directo
 
 Point a web browser on the same computer to [http://localhost/](http://localhost), then click on replicator.php.  This should replicate the whole system into the directory.  When this is done, click the link to go to the main page. 
 
+
+Create a shortcut on the desktop to the "media" folder in order to make it very easy to drag and drop media into it. 
+
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/media-shortcut.png)
 
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/media-path.png)
 
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/media-folders.png)
 
 
 ### Install on Pi
