@@ -16,6 +16,8 @@ mkdir("php");
 mkdir("uploadimages");
 mkdir("media");
 mkdir("web");
+mkdir("scrolls");
+
 
 copy("https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt","replicator.php");
 
@@ -30,6 +32,12 @@ foreach($dna->data as $value){
     
     copy($baseurl."data/".$value,"data/".$value);
     
+}
+
+foreach($dna->scrolls as $value){
+        
+    copy($baseurl."scrolls/".$value,"scrolls/".$value);
+
 }
 
 foreach($dna->php as $value){
