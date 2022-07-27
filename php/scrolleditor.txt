@@ -21,7 +21,7 @@
  
 double line break for paragraph break, *italic*, **bold**, [link](index.html). Delete all this.
  
-![image alt text](iconsymbols/chaos.svg)
+![image alt text](https://raw.githubusercontent.com/LafeLabs/hypercube/main/iconsymbols/image.svg)
  
 </div>
     
