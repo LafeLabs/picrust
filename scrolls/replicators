@@ -6,3 +6,6 @@
  - [geometron hypercube](https://github.com/LafeLabs/hypercube)
  - [copy trash magic scroll set](copy.php?from=https://raw.githubusercontent.com/LafeLabs/hypercube/main/trashmagic/data/scrollset.txt&to=data/scrollset.txt)
  - [scroll set replicator page](scrollset.html)
+ - [copy the Geometron hypercube replicator over the local replicator](copy.php?from=https://raw.githubusercontent.com/LafeLabs/hypercube/main/php/replicator.txt&to=replicator.php)
+ - [php/replicator.txt](php/replicator.txt)
+ - [replicator.php](replicator.php)
