@@ -1,0 +1,28 @@
+{
+    "server": "https://raw.githubusercontent.com/LafeLabs/picrust/main/cloudless/",
+    "scrolls": [
+        "adboard",
+        "apartment",
+        "arpanet",
+        "bellsystem",
+        "cloud",
+        "codeevolution",
+        "codereplication",
+        "creators",
+        "eyeballs",
+        "hardware",
+        "home",
+        "localmedia",
+        "medical",
+        "mobile",
+        "music",
+        "operators",
+        "picrust",
+        "scrollsets",
+        "servers",
+        "shoppingcenter",
+        "tbl",
+        "web",
+        "web2"
+    ]
+}

@@ -1,0 +1,12 @@
+
+## [HOME](scrolls/home)
+
+# picrust
+ 
+ - github
+ - free public domain self-replicating code
+ - runs on all platforms no native code
+ - no server side code, all from client side of browser
+ - a container for media of all kinds
+ - can evolve and replicate in the wild
+ - no central code base, each code copy fully self-contained
