@@ -22,6 +22,7 @@
         "servers",
         "shoppingcenter",
         "tbl",
+        "usecases",
         "web",
         "web2"
     ]

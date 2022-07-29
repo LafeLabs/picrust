@@ -1,12 +1,23 @@
+## [Code evolution](scrolls/codeevolution)
 
 ## [HOME](scrolls/home)
 
-# picrust
+# PI CRUST Media Server
+
+## [Installation instructions on Public Domain Github repository](https://github.com/LafeLabs/picrust)
  
- - github
- - free public domain self-replicating code
  - runs on all platforms no native code
  - no server side code, all from client side of browser
  - a container for media of all kinds
  - can evolve and replicate in the wild
  - no central code base, each code copy fully self-contained
+ - This can be on the Internet or not
+ - There is no private or personal data of any kind on any server, ever. 
+ - *This exists only to share information we wish to replicate as widely as possible!*
+ - [Scroll sets(self-replicating sets of hyperlinked text documents)](scrolleditor.php?scroll=scrolls/picrust)
+ - [Local Web](web/)
+ - [Media Folders](media.html)
+ - [Image feed](imagefeed.html)
+
+
+## [PI CRUST Use Cases](scrolls/usecases)

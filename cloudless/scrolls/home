@@ -2,8 +2,6 @@
 
 ## *The web without the Internet*
 
-**Abstract**: We take it for granted that the Web and the Internet are roughly the same thing.  The “Internet” as far as most of us are concerned is an amorphous structure of faraway data centers which all come together to form the “cloud” which hosts all our apps and web pages.  However, all devices which can view web pages(phones, tablets, laptops, pc’s) can also be web servers.  We can build *all* of our devices we use to consume content into devices to share content over physically local networks, without using the cloud at all.  I will talk briefly about the history of the Web and the Internet and then show the system I’ve built for community-based media centered on local shared wifi networks. 
-
  - [In the beginning...the Bell System](scrolls/bellsystem)
  - [ARPANET](scrolls/arpanet)
  - [Tim Berners-Lee at CERN](scrolls/tbl)
@@ -16,16 +14,12 @@
  - [Self-replicating code](scrolls/codereplication)
  - [Code evolution](scrolls/codeevolution)
  - [Installation of PI CRUST](scrolls/picrust)
- - [Local Media sharing](scrolls/localmedia)
- - [Use case: Music Distribution](scrolls/music)
- - [Use case: apartment building bulletin board](scrolls/apartment)
- - [Use case: medical literature in waiting room](scrolls/medical)
- - [Use case: shopping center media network](scrolls/shoppingcenter)
- - [Use case: user-submitted photo ad board](scrolls/adboard)
+ - [Use Cases of PI CRUST](scrolls/usecases)
  - [Self-replicating text media](scrolls/scrollsets)
  - [Free Hardware Growth](scrolls/hardware)
  - [Network Operator Support](scrolls/operators)
  - [Content Creator Support](scrolls/creators)
 
+**Abstract**: We take it for granted that the Web and the Internet are roughly the same thing.  The “Internet” as far as most of us are concerned is an amorphous structure of faraway data centers which all come together to form the “cloud” which hosts all our apps and web pages.  However, all devices which can view web pages(phones, tablets, laptops, pc’s) can also be web servers.  We can build *all* of our devices we use to consume content into devices to share content over physically local networks, without using the cloud at all.  I will talk briefly about the history of the Web and the Internet and then show the system I’ve built for community-based media centered on local shared wifi networks. 
 
 
