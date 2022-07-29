@@ -1,10 +1,13 @@
-
 ## [HOME](scrolls/home)
 
-# cloud
+## [mobile phones page](scrolls/mobile)
+
+# The "Cloud"
  
- - number of servers
- - dollars taken per year
- - amount of storage space
- - growth
- - market share 
+It is very hard to get clear estimates, but it appears there are on the order of a few hundred million servers making up the "cloud".  Or on the order of 10 people per server.  
+
+ - On the order a few hundred billion dollars globally($100/person globally)
+ - 1e23 bytes of information (1 Tb/person globally)
+
+[![](https://www.cloudwards.net/wp-content/uploads/2021/05/Cloud-Computing-Stats-By-the-Numbers.png)](https://www.cloudwards.net/cloud-computing-statistics/)
+
