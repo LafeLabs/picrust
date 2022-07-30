@@ -45,6 +45,13 @@ Scroll Reader with links to editor
 <span class = "button" id = "modebutton">MODE</span>
 <div class = "button" id = "hidebutton">SHOW SCROLL MENU</div>
     
+<div class = "data" id = "scrolldiv"><?php
+
+if(isset($_GET["scroll"])){
+    echo $_GET["scroll"];
+}
+
+?></div>
 
 <script>
 
@@ -83,7 +90,12 @@ filename = "scrolls/home";
 
 //loadscroll("scrolls/home");
 
-loadscroll("scrolls/home");
+if(document.getElementById("scrolldiv").innerHTML.length > 0){
+    loadscroll(document.getElementById("scrolldiv").innerHTML);
+}
+else{
+    loadscroll("scrolls/home");
+}
 
 
 localfile = true;
@@ -169,7 +181,7 @@ document.getElementById("modebutton").onclick = function(){
 
 
 modeswitch();
-//modeswitch();
+modeswitch();
 
 function modeswitch(){
     if(mode == "dark"){
@@ -325,7 +337,7 @@ input{
     max-width:80%;
     display:block;
     margin:auto;
-    background-color:#808080;
+    background-color:none;
 }
 #mainmap{
     position:absolute;

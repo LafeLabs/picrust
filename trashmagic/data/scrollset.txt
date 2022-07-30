@@ -1,0 +1,13 @@
+{
+    "server": "https://raw.githubusercontent.com/LafeLabs/picrust/main/trashmagic/",
+    "scrolls": [
+        "books",
+        "cards",
+        "cubes",
+        "home",
+        "icons",
+        "picrust",
+        "printers",
+        "shapes"
+    ]
+}
