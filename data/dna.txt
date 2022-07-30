@@ -1,6 +1,7 @@
 {
     "html": [
         "README.md",
+        "dumbscroll.html",
         "fork.html",
         "images.html",
         "index.html",
@@ -42,8 +43,8 @@
         "webreplicator.txt"
     ],
     "scrolls": [
-        "foo",
-        "home"
+        "home",
+        "replicators"
     ],
     "web": [
         "books.html",
