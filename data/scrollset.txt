@@ -1,7 +1,8 @@
 {
-    "server": "https://raw.githubusercontent.com/LafeLabs/hypercube/main/",
+    "server": "https://raw.githubusercontent.com/LafeLabs/picrust/main/",
     "scrolls": [
         "home",
+        "links",
         "replicators"
     ]
 }
