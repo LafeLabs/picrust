@@ -77,7 +77,13 @@ To point to a server, find the IP address of the machine by looking at the wifi 
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/ip-address.png)
 
-### Install on Windows or Mac
+Then put into the qrcode page the address "http://your ipv4 address".  You can also put in an [IPv6 address](https://en.wikipedia.org/wiki/IPv6) by putting it inside square brackets. So for example link for a 4 number ip(ipv4) address
+
+```
+http://10.0.0.7
+```
+
+### Installation on Windows or Mac
 
 First, install XAMPP, a free open source web server for all platforms.  [Download from www.apachefriends.org](https://www.apachefriends.org/index.html).  Click on windows to download, and click through to install everything.
 
