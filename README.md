@@ -73,7 +73,9 @@ You can enter *any* address into the text input and hit "enter" to load any arbi
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/qrcode-trashrobot.png)
 
+To point to a server, find the IP address of the machine by looking at the wifi settings:
 
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/ip-address.png)
 
 ### Install on Windows or Mac
 
