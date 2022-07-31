@@ -23,12 +23,17 @@ The construction of this network represents the building of digital community th
  - local classifieds and personals ads
  - media for exchange of physical goods: share, give away, buy, and sell crafts, technology, food, locally made goods and unwanted objects, facilitate upcycling 
  - local financial markets, moderating deals between physically local business people
- - music sharing in religious communities 
+ - music sharing in religious communities(record audio and post to wifi) 
  - local plant, animal, fungus, soil, weather and water knowledge sharing 
  - creating foundational documents for local organizations whose existence is primarily on these local wifi-based networks
+ - Documenting self-replicating things made from trash: trash magic
+ - Free sharing of books, local library infrastructure, extension of Public Library system
+ - censorship-resistant news distribution, local news
+ - rapid creation of historical documents during historical events on location for replication to archives afterward
+ - immersive text-based games, mixed reality
 
 
-Scroll down to see how to install the PI CRUST server on a machine.  If many people will use a server, we want something like a [Raspberry Pi](https://www.raspberrypi.org/) that is dedicated for this purpose.  
+Scroll down to see how to install the PI CRUST server on a machine.  If many people will use a server, we want something like a [Raspberry Pi](https://www.raspberrypi.org/) that is dedicated for this purpose.  Raspberry Pi is increasingly hard to buy, but they can often be found for donation from the community from people who have them but don't use them.  Also, we can take any old laptop or desktop, wipe the hard drive clean(to avoid security issues) and install Linux, then follow the same instructions as for the Pi to install the server on it.  
 
 The main page of the PI CRUST server is just a simple list of links:
 
@@ -118,7 +123,7 @@ sudo apt install apache2 -y
 sudo apt install php libapache2-mod-php -y
 ```
 
-## Install hypercube with this document for self-documentation and replication
+## Install PI CRUST 
 
 ```
 cd /var/www/html
