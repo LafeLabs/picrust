@@ -15,3 +15,40 @@ These documents are in the [markdown](https://www.markdownguide.org/basic-syntax
  - [scrolldelete.html](scrolldelete.html)
  - [data/scrollset.txt](data/scrollset.txt)
  - [replicator scroll](scrolls/replicators)
+
+
+# Cloudless Media
+
+## *The web without the Internet*
+
+ - [In the beginning...the Bell System](scrolls/bellsystem)
+ - [ARPANET](scrolls/arpanet)
+ - [Tim Berners-Lee at CERN](scrolls/tbl)
+ - [The Web vs. the Internet](scrolls/web)
+ - [The 90s bubble: capturing eyeballs](scrolls/eyeballs)
+ - [Web 2.0: Facebook's takeover](scrolls/web2)
+ - [The Cloud](scrolls/cloud)
+ - [Mobile hardware explosion](scrolls/mobile)
+ - [A Universe of servers](scrolls/servers)
+ - [Self-replicating code](scrolls/codereplication)
+ - [Code evolution](scrolls/codeevolution)
+ - [Installation of PI CRUST](scrolls/picrust)
+ - [Use Cases of PI CRUST](scrolls/usecases)
+ - [Self-replicating text media](scrolls/scrollsets)
+ - [Free Hardware Growth](scrolls/hardware)
+ - [Network Operator Support](scrolls/operators)
+ - [Content Creator Support](scrolls/creators)
+
+**Abstract**: We take it for granted that the Web and the Internet are roughly the same thing.  The “Internet” as far as most of us are concerned is an amorphous structure of faraway data centers which all come together to form the “cloud” which hosts all our apps and web pages.  However, all devices which can view web pages(phones, tablets, laptops, pc’s) can also be web servers.  We can build *all* of our devices we use to consume content into devices to share content over physically local networks, without using the cloud at all.  I will talk briefly about the history of the Web and the Internet and then show the system I’ve built for community-based media centered on local shared wifi networks. 
+
+# Trash Magic
+
+*Self-replicating media from trash*
+
+ - [Replicate Cubes](scrolls/cubes)
+ - [Replicate Trash Magic Cards](scrolls/cards)
+ - [Replicate Action Geometry Shapes](scrolls/shapes)
+ - [Read the books of Geometron and Trash Magic](scrolls/books)
+ - [Replicate PI CRUST servers](https://github.com/LafeLabs/picrust)
+ - [Replicate Geometron Icons](scrolls/icons)
+ - [Replicate Trash Robot Geometron Icon Printers](scrolls/printers)
