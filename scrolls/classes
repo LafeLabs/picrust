@@ -3,13 +3,12 @@
 
 # classes
  
-Our aim is 2 classes per week for 10 weeks to learn the System replication, operation, and evolution.  Each class can have a card that links to it(youtube+account(s)+hashtag or search term).  Classes are 1-2 hours.
-
+Our aim is 2 classes per week for 10 weeks to learn the System replication, operation, and evolution.  Classes are 1-2 hours.  Each class is a youtube video which will be linked in the following list as it's built out.  Each class can have a card that links to it(youtube+account(s)+hashtag or search term).  
 
  - Build a cardboard cube by hand
  - Build and use cards by hand
  - The Web Without the Cloud: history and future(APL intern talk)
- - Build a PI CRUST server on a PC or Mac, explore it, use it to share media
+ - Build a PI CRUST server on a PC or Mac, explore it, use it to share media, replicate this document
  - Build PI CRUST Raspberry Pi server/terminal(pi setup class)
  - PI CRUST for music, podcast and video distribution
  - PI CRUST for local commerce and markets
@@ -29,5 +28,6 @@ Our aim is 2 classes per week for 10 weeks to learn the System replication, oper
  - Robot trash printing operation tutorial
  - Arduino Shield 101: install, knob, buttons, neopixel, motor control, sensor
  - Arduino Shield Applications: games, g controls, more neopixel
+ - Build a Mesh Node(Aric teaches this and sequels, RF comms class)
 
 

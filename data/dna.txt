@@ -49,6 +49,7 @@
         "bellsystem",
         "books",
         "cards",
+        "classes",
         "cloud",
         "codeevolution",
         "codereplication",
@@ -80,7 +81,7 @@
         "books.html",
         "images.html",
         "index.html",
-        "internette.html",
+        "innernette.html",
         "music.html",
         "qrcode.html",
         "utilities.html"
