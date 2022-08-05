@@ -7,6 +7,7 @@
         "bellsystem",
         "books",
         "cards",
+        "classes",
         "cloud",
         "codeevolution",
         "codereplication",
