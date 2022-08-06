@@ -30,6 +30,7 @@
         "servers",
         "shapes",
         "shoppingcenter",
+        "simplecube",
         "tbl",
         "usecases",
         "web",

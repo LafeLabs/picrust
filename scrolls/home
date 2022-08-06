@@ -5,6 +5,7 @@
 These documents are in the [markdown](https://www.markdownguide.org/basic-syntax/) format.  Local hyperlinks from one scroll to another are created by naming the scroll to link to along with "scrolls/" before it.  
 
  - [home](index.html)
+ - [simple cube](scrolls/simplecube)
  - [links scroll](scrolls/links)
  - [replicators scroll](scrolls/replicators)
  - [scroll.html](scroll.html)
@@ -46,6 +47,7 @@ These documents are in the [markdown](https://www.markdownguide.org/basic-syntax
 *Self-replicating media from trash*
 
  - [Replicate Cubes](scrolls/cubes)
+ - [simple cube](scrolls/simplecube)
  - [Replicate Trash Magic Cards](scrolls/cards)
  - [Replicate Action Geometry Shapes](scrolls/shapes)
  - [Read the books of Geometron and Trash Magic](scrolls/books)
