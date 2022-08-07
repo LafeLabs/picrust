@@ -1,8 +1,12 @@
+## [HOME](index.html)
+
 # Scrolls
 
 *Self-replicating sets of text documents.*
 
 These documents are in the [markdown](https://www.markdownguide.org/basic-syntax/) format.  Local hyperlinks from one scroll to another are created by naming the scroll to link to along with "scrolls/" before it.  
+
+[![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/replicator.jpg)](scrolls/simplecube)
 
  - [home](index.html)
  - [simple cube](scrolls/simplecube)
