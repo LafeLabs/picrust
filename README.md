@@ -1,5 +1,7 @@
 # PI CRUST Server
 
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/replicator.jpg)
+
 ### *Local media on local networks*
 
 ### [index.html](index.html)
