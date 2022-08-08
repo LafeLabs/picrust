@@ -32,6 +32,7 @@
         "fileloader.txt",
         "filesaver.txt",
         "mkdir.txt",
+        "rdelete.txt",
         "replicator.txt",
         "scroll.txt",
         "scrolleditor.txt",
