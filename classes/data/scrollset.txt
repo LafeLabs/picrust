@@ -1,0 +1,7 @@
+{
+    "server": "https://raw.githubusercontent.com/LafeLabs/picrust/main/classes/",
+    "scrolls": [
+        "home",
+        "simplecube"
+    ]
+}
