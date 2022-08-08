@@ -218,4 +218,7 @@ Which are assembled into the Simple Cube:
 
 Cubes are stacked. They are used to store the tools to make more cubes.  They are decorated with geometric fractals using the tools of Geometron and Action Geometry.  They can be linked with sharpie to social media accounts, web pages, physical places, or people.  This physical object is a physical hyperlink to anything you want it to be.  Cubes can be used to build robots, plant plants, create nano-compost projects and fungi growth projects, earthen walls, art tool holders, or anything else we can think of.  We link cubes with code and code with cubes.
 
+### [Replicate Web 1.0 Pages](https://github.com/lafeLabs/web)
+
+
 
