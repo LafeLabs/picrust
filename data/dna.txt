@@ -80,6 +80,8 @@
         "web2"
     ],
     "web": [
+        "calculator.html",
+        "homebrew.html",
         "index.html",
         "innernette.html"
     ]
