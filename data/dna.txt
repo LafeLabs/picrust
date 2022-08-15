@@ -82,6 +82,7 @@
     "web": [
         "calculator.html",
         "currentjson.js",
+        "currentjson.txt",
         "geometron.js",
         "homebrew.html",
         "iconpage.html",
