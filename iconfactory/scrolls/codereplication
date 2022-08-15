@@ -1,0 +1,15 @@
+## [Servers](scrolls/servers)
+
+## [HOME](scrolls/home)
+
+# PI CRUST: Self-replicating server code
+
+Runs on any web server that can run PHP.
+
+ - PHP scripts replicate everything
+ - JSON maps set to replicate 
+ - all replication runs from *client side* of Web Browser, no native code no command line operation
+ - [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
+
+## [Code Evolution](scrolls/codeevolution)
+ 

@@ -81,8 +81,11 @@
     ],
     "web": [
         "calculator.html",
+        "geometron.js",
         "homebrew.html",
+        "iconpage.html",
         "index.html",
-        "innernette.html"
+        "innernette.html",
+        "robotfeed.js"
     ]
 }
