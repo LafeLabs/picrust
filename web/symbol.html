@@ -42,6 +42,9 @@
 <div id = "spellbox">
     <table id = "spellinputtable">
         <tr>
+            <td id = "modeindicator">
+                _|_
+            </td>
             <td>
                 <input id = "actioninput"/>
             </td>
@@ -55,6 +58,8 @@
     </div>
 </div>
 <div id = "controlbox">
+    <img style= "max-width:100%" src = "https://i.imgur.com/b8IlcdE.png">
+
     <div id = "savebutton" style = "width:5em;text-align:center;border:solid" class= "button">SAVE</div>
     <a href = "symbol.svg">symbol.svg</a>
     <table id = "controltable">
@@ -315,14 +320,15 @@ function modeswitch(){
     mode++;
     mode = mode%3;
     if(mode == 0){
-        document.getElementById("modeindicator").src = "iconsymbols/cursor.svg";
+        document.getElementById("modeindicator").innerHTML = "_|_";
     }
     if(mode == 1){
-        document.getElementById("modeindicator").src = "iconsymbols/abcfont.svg";
+        document.getElementById("modeindicator").innerHTML = "abc";
     }
     if(mode == 2){
-        document.getElementById("modeindicator").src = "iconsymbols/abcstack.svg";
+        document.getElementById("modeindicator").innerHTML = "\"abc\"";
     }
+
     document.getElementById("actioninput").select();   
 }
 
