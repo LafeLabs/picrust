@@ -29,13 +29,21 @@
 <div id = "header">
 
     <a href = "index.html">HOME</a>        
-
+<table id = "urltable" style = "position:absolute;right:0px;top:0px">
+    <tr>
+        <td>image url:</td>
+        <td>
+            <input id = "imageurlinput"/>
+        </td>
+    </tr>
+</table>
 </div>
 
 
 <div id = "mainbox">
     <div id = "geometronbox">
         <canvas id = "maincanvas"></canvas>
+        <img  id = "mainimage" style = "width:100%;position:absolute;left:0px;top:0px;z-index:-1"/>
     </div>
 </div>
 
@@ -362,6 +370,14 @@ function savejson(){
     httpc.open("POST", url, true);
     httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     httpc.send("data="+encodeURIComponent(JSON.stringify(currentjson,null,"    "))+"&filename=web/currentjson.txt");//send text to filesaver.php
+}
+
+
+document.getElementById("imageurlinput").value = "";
+document.getElementById("imageurlinput").onchange = function(){
+    
+    document.getElementById("mainimage").src = this.value;
+    
 }
 
 </script>
