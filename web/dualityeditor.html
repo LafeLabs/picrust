@@ -29,16 +29,22 @@ PUBLIC DOMAIN, NO COPYRIGHTS, NO PATENTS.
         <td  class = "selectbutton" id = "bottomimageselect"></td>
     </tr>
     <tr>
-        <td class = "sliderbar" colspan="3" id = "scaleslider">S C A L E<img/></td>
+        <td class = "sliderbar" colspan="3" id = "scaleslider">S C A L E</td>
     </tr>
     <tr>
-        <td class = "sliderbar" colspan="3" id = "rotateslider">R O T A T E<img/></td>
+        <td class = "sliderbar" colspan="3" id = "rotateslider">R O T A T E</td>
+    </tr>
+    <tr>
+        <td class= "button" colspan = "3" id = "importbutton">
+            I M P O R T
+        </td>
     </tr>
     <tr>
         <td class = "button" colspan="3" id = "publishbutton">S A V E<img/></td>
     </tr>
-
 </table>
+<textarea id = "textio"></textarea>
+
 </div>
 <script>
 
@@ -60,6 +66,7 @@ httpcjson.open("GET", "../fileloader.php?filename=web/duality.txt", true);
 httpcjson.send();
 
 function init(){
+    document.getElementById("textio").value = JSON.stringify(duality,null,"    ");
     theta = duality.theta;
     alpha = Math.cos(theta)*Math.cos(theta);
     beta = Math.sin(theta)*Math.sin(theta);
@@ -212,6 +219,12 @@ document.getElementById("publishbutton").onclick = function(){
     
 }
 
+document.getElementById("importbutton").onclick = function(){
+    
+    duality = JSON.parse(document.getElementById("textio").value);
+    init();
+    
+}
 
 </script>
 
@@ -264,6 +277,10 @@ document.getElementById("publishbutton").onclick = function(){
 }
 .button:active{
     background-color:yellow;
+}
+#textio{
+    font-family:courier;
+    
 }
 
 </style>

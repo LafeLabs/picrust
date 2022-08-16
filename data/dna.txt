@@ -81,6 +81,8 @@
     ],
     "web": [
         "calculator.html",
+        "chaosfeed.html",
+        "chaosfeed.txt",
         "currentjson.js",
         "currentjson.txt",
         "duality.html",
