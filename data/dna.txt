@@ -91,6 +91,9 @@
         "iconpage.html",
         "index.html",
         "innernette.html",
+        "mapfactory.js",
+        "poetry.txt",
+        "poetryengine.html",
         "robotfeed.js",
         "symbol.html"
     ]

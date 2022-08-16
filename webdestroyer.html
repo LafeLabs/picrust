@@ -52,7 +52,7 @@ httpcUpload.send();
 
 function loadimagefeed(){
 
-    for(var index = uploadImages.length - 1;index >= 0;index--) {
+    for(var index = 0;index < uploadImages.length;index++) {
         if(uploadImages[index].includes(".") && uploadImages[index] != "index.html"){
             var newuploadbox = document.createElement("DIV");
             newuploadbox.classList.add("imagebox");
