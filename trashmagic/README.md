@@ -169,5 +169,3 @@ Use the Editor built into the system to create a new file called replicator.php 
  - push your code to your github repo
  - use the new replicator code on your github repo to replicate out that instance to all other servers(linux, windows, mac, android) and forks
  - when you figure this out, make youtube videos showing other people how to copy the whole system 
-
-

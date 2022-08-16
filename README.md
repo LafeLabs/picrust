@@ -221,4 +221,12 @@ Cubes are stacked. They are used to store the tools to make more cubes.  They ar
 ### [Replicate Web 1.0 Pages](https://github.com/lafeLabs/web)
 
 
+### Socials
+
+ - [tiktok:@trash_robot](https://www.tiktok.com/@trash_robot)
+ - [instagram:@lafelabs](https://www.instagram.com/lafelabs/)
+ - [twitter:@trashrobot0](https://twitter.com/trashrobot0)
+ - [youtube:@trash_robot](https://www.youtube.com/channel/UCLyeOlfnEBCnRTAH8rppEFw)
+
+
 
