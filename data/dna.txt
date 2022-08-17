@@ -80,6 +80,7 @@
         "web2"
     ],
     "web": [
+        "arduino.html",
         "calculator.html",
         "chaosfeed.html",
         "chaosfeed.txt",
@@ -91,6 +92,7 @@
         "geometron.js",
         "homebrew.html",
         "iconpage.html",
+        "iconset.html",
         "index.html",
         "innernette.html",
         "mapfactory.js",
@@ -99,6 +101,7 @@
         "mathscroll.txt",
         "poetry.txt",
         "poetryengine.html",
+        "printer.txt",
         "robotfeed.js",
         "symbol.html"
     ]

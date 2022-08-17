@@ -4,9 +4,9 @@
 
 ### *Local media on local networks*
 
-### [index.html](index.html)
-
-### [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
+- [index.html](index.html)
+- [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
+- [www.trashrobot.org](https://www.trashrobot.org/)
 
 This is local media.  We can install web servers on *everything*: mac and Windows laptops and desktops, Raspberry Pi, and Android and iOS Devices.  Any device can be a server, and we drop files on it to share with others on the same wireless network.  When every device is a server as well as a client, people who share wireless networks can media without the Cloud.  
 
