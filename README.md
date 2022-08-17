@@ -5,6 +5,7 @@
 ### *Local media on local networks*
 
 - [index.html](index.html)
+- [http://localhost/](http://localhost/)
 - [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
 - [www.trashrobot.org](https://www.trashrobot.org/)
 
