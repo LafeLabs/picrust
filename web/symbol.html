@@ -224,6 +224,9 @@ httpcjson.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         currentjson = JSON.parse(this.responseText);
         mainGVM.glyph = currentjson.glyph + "0207,";
+        
+        mainGVM.importbytecode(currentjson.shapes);
+        
         mainGVM.x0 = currentjson.x0;
         mainGVM.y0 = currentjson.y0;
         mainGVM.unit = currentjson.unit;
