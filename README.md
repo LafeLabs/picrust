@@ -4,6 +4,7 @@
 
 ### *Local media on local networks*
 
+- [replicator.php](https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt)
 - [index.html](index.html)
 - [http://localhost/](http://localhost/)
 - [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
